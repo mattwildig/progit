@@ -564,7 +564,9 @@ Option Description of Output
 `%cr`  Committer date, relative
 
 `%s`   Subject
+
 ---------------------------------------------------------
+
 Table: Format options
 
 You may be wondering what the difference is between _author_ and _committer_. The author is the person who originally wrote the work, whereas the committer is the person who last applied the work. So, if you send in a patch to a project and one of the core members applies the patch, both of you get credit — you as the author and the core member as the committer. We’ll cover this distinction a bit more in Chapter 5.
@@ -613,7 +615,9 @@ Option            Description
 `--pretty`        Show commits in an alternate format. Options include
                   oneline, short, full, fuller, and format (where you specify
                   your own format).
+
 ------------------------------------------------------------------------------
+
 Table: Some `git log` options
 
 ### Limiting Log Output ###
@@ -648,7 +652,9 @@ Option                Description
 
 `--committer`         Only show commits in which the committer entry matches
                       the specified string.
+
 ------------------------------------------------------------------------------
+
 Table: Some `git log` filter options
 
 For example, if you want to see which commits modifying test files in the Git source code history were committed by Junio Hamano and were not merges in the month of October 2008, you can run something like this:
